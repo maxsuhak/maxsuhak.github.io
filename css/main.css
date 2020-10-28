@@ -41,6 +41,10 @@ p.lead {
   font-weight: 400;
 }
 
+ul {
+  padding-inline-start: 20px;
+}
+
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
@@ -168,4 +172,24 @@ a {
 a:hover, a:focus, a:active,
 i:hover, i:focus, i:active {
   color: #eb1722;
+}
+
+.card {
+  border: none;
+  background-color: white;
+}
+
+.card-header {
+  background-color: white;
+  border-bottom: none;
+  padding-left: 0;
+}
+
+.card-header > h2 > button {
+  text-decoration: none !important;
+  padding-left: 0;
+}
+
+.subheading {
+  color: #868e96;
 }

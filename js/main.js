@@ -32,4 +32,6 @@
   $('body').scrollspy({
     target: '#sideNav'
   })
+
+  $('.collapse').collapse()
 })(jQuery)
