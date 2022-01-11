@@ -81,6 +81,15 @@ ul {
   color: #eb1722;
 }
 
+.dev-icons .list-inline-item svg {
+  fill: #868e96;
+  width: 48px;
+}
+
+.dev-icons .list-inline-item svg:hover {
+  fill: #eb1722;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
