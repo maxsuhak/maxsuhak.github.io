@@ -29,9 +29,11 @@
     $('.navbar-collapse').collapse('hide')
   })
 
-  $('body').scrollspy({
-    target: '#sideNav'
-  })
+  $('body').scrollspy({ target: '#sideNav' })
 
   $('.collapse').collapse()
+
+  $('[data-toggle="tooltip"]').tooltip()
+
+  anchors.add('section h2')
 })(jQuery)
