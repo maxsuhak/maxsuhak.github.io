@@ -35,5 +35,11 @@
 
   $('[data-toggle="tooltip"]').tooltip()
 
-  anchors.add('section h2')
+  anchors.add('#experience > div > h2')
+  anchors.add('#experience h3')
+  anchors.add('#education > div > h2')
+  anchors.add('#education h3')
+  anchors.add('#projects > div > h2')
+  anchors.add('#projects h3')
+  anchors.add('#skills > div > h2')
 })(jQuery)
